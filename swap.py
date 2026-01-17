@@ -1,5 +1,3 @@
-def swap(a,b):
-    temp=a
-    a=b
-    b=temp
-    return(b,a)
+def swap(a, b):
+    a, b = b, a
+    return a, b
